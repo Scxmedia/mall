@@ -19,6 +19,9 @@
     },
     "p_contact": {
       "type": "string"
+    },
+    "p_id": {
+      "type": "integer"
     }
   }
 }

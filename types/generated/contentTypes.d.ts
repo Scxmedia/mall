@@ -609,6 +609,7 @@ export interface ApiPodPod extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     p_contact: Schema.Attribute.String;
     p_desc: Schema.Attribute.Blocks;
+    p_id: Schema.Attribute.Integer;
     p_name: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
