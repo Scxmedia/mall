@@ -42,9 +42,6 @@
       "target": "api::category.category"
     },
     "contact": {
-      "type": "biginteger"
-    },
-    "contacts": {
       "type": "string"
     },
     "logo": {
