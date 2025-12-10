@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pods",
+  "info": {
+    "singularName": "pod",
+    "pluralName": "pods",
+    "displayName": "Pods"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "p_name": {
+      "type": "string"
+    },
+    "p_desc": {
+      "type": "blocks"
+    },
+    "p_contact": {
+      "type": "string"
+    }
+  }
+}
