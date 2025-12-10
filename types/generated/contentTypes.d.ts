@@ -604,6 +604,7 @@ export interface ApiStoreStore extends Struct.CollectionTypeSchema {
     category: Schema.Attribute.Relation<'oneToOne', 'api::category.category'>;
     closing_time: Schema.Attribute.Time;
     contact: Schema.Attribute.BigInteger;
+    contacts: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
