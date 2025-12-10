@@ -42,7 +42,7 @@
       "target": "api::category.category"
     },
     "contact": {
-      "type": "integer"
+      "type": "biginteger"
     },
     "logo": {
       "type": "media",

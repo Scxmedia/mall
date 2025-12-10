@@ -603,7 +603,7 @@ export interface ApiStoreStore extends Struct.CollectionTypeSchema {
   attributes: {
     category: Schema.Attribute.Relation<'oneToOne', 'api::category.category'>;
     closing_time: Schema.Attribute.Time;
-    contact: Schema.Attribute.Integer;
+    contact: Schema.Attribute.BigInteger;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
